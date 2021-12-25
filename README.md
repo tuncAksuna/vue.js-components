@@ -2,6 +2,9 @@
 
 > A basic Vue.js project
 
+# Arch
+App > Home > HomePage( includes footer,header,server and server details components) .. 
+
 ## Build Setup
 
 ``` bash
