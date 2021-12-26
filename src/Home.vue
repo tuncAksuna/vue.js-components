@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <home-page></home-page>
-    <hr>
+    <hr />
     <h3>Communucation between components</h3>
     <p>Data from parent : {{ data }}</p>
     <p>Data from parent (string) : {{ stringData }}</p>
@@ -12,7 +12,17 @@
 import HomePage from "./components/HomePage.vue";
 
 export default {
-  props: ["data","stringData"],
+  props: {
+    data: {
+      type: String,
+      required: true,
+      // default: function(){
+      //   return {
+      //     ...
+      //   }
+      // }
+    },
+  },
   components: {
     homePage: HomePage,
   },
