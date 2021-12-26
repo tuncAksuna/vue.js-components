@@ -1,6 +1,10 @@
 <template>
   <div class="container">
-    <homePage></homePage>
+    <home-page></home-page>
+    <hr>
+    <h3>Communucation between components</h3>
+    <p>Data from parent : {{ data }}</p>
+    <p>Data from parent (string) : {{ stringData }}</p>
   </div>
 </template>
 
@@ -8,6 +12,7 @@
 import HomePage from "./components/HomePage.vue";
 
 export default {
+  props: ["data","stringData"],
   components: {
     homePage: HomePage,
   },
@@ -15,7 +20,7 @@ export default {
 </script>
 
 <style >
- div{
-   margin-top: 3em;
- }
+div {
+  margin-top: 3em;
+}
 </style>
