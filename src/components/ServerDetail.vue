@@ -1,11 +1,18 @@
 <template>
   <div class="col-xs-12 col-sm-6">
     <p>Server informations is out of date !</p>
+    <button @click="sendToParent">Send data to parent(Servers comp.)</button>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  methods:{
+    sendToParent(){
+      this.$emit("data","tunCode")
+    }
+  }
+};
 </script>
 
 <style scoped>
