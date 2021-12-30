@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <h2>Child component</h2>
     <home-page></home-page>
     <hr />
     <h3>Communucation between components</h3>
