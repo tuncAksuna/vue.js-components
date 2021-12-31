@@ -13,7 +13,7 @@
     <!-- SLOTS -->
     <app-headers>
       <h1 slot="heading">SLOTS</h1>
-      <p slot="content">Using <b>Slot</b> for sending "content" to component</p>
+      <p>Using <b>Slot</b> for sending "content" to component</p>
     </app-headers>
     <!-- SLOTS -->
   </div>

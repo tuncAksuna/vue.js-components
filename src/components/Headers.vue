@@ -2,7 +2,7 @@
   <div>
     <h1>Server Status</h1>
     <slot name="heading"></slot>
-    <slot name="content"></slot>
+    <slot ></slot>
     <slot name="author">
       <h3>Slot defaults</h3>
       <p>Slot defaults can be used if no data</p>
