@@ -1,6 +1,8 @@
 <template>
   <div>
     <h1>Server Status</h1>
+    <slot name="heading"></slot>
+    <slot name="content"></slot>
   </div>
 </template>
 
