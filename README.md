@@ -2,9 +2,10 @@
 
 > A basic Vue.js project
 
-# Arch
-App > Home > HomePage( includes footer,header,server and server details components) .. 
-
+# AN OVERVİEW OF THE APPLICATION
+- The architecture of the application is quite understandable and extensible.
+- App component is the main component that contains all components.
+- In the architecture, data is sent from the main components to the child components. Sometimes the 'slot' structure is used for this process.
 ## Build Setup
 
 ``` bash
